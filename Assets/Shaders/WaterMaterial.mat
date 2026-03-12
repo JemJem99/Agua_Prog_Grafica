@@ -79,6 +79,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RainRippleTex:
+        m_Texture: {fileID: 2800000, guid: 2bab83cb3b58a114987006b52178af15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _WaterDepthTex:
         m_Texture: {fileID: 2800000, guid: 34956d78d3cc03d4bac5b288fc48ce1d, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -94,12 +98,17 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
+    - _CausticsScale: 7.02
+    - _CausticsSpeed: 0.001
+    - _CausticsStrength: 0.308
     - _Cutoff: 0.5
+    - _DebugCaustics: 0
     - _DebugColor: 0
     - _DebugDepth: 0
     - _DebugFoam: 0
     - _DebugNoise: 0
     - _DebugNormals: 0
+    - _DebugRipples: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _FoamDistance: 0.855
@@ -119,6 +128,11 @@ Material:
     - _NoiseTile: 100.4
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RainIntensity: 0.142
+    - _RainRippleCols: 4
+    - _RainRippleRows: 4
+    - _RainRippleSpeed: 4
+    - _RainRippleTile: 1
     - _ReflectionStrength: 0.064
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -130,6 +144,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - _CausticsColor: {r: 0.08232466, g: 0.6981132, b: 0.672979, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DeepWaterColor: {r: 0.075649686, g: 0.108692475, b: 0.6415094, a: 0.9647059}
     - _DirectionFoam: {r: 1.5, g: 0, b: -0.3, a: 0.4}
